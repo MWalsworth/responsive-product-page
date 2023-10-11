@@ -21,7 +21,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
-    transition: all .5s ease;
+  
 }
 
 html {
@@ -98,7 +98,6 @@ p{
   padding-bottom:4em;
 }
 #bite-me .wrapper{
-transition: all ease-out .5s ;
 display: grid;
 grid-template-columns: 1fr 1fr;
 gap: 1em; 
@@ -129,7 +128,7 @@ button:hover{
 }
 
 
-#wpas{
+#reviews{
   background-color: var(--blk);
   color: var(--white);
   text-align: center;
@@ -137,7 +136,7 @@ button:hover{
   padding: 2em 0 2em 0;
 }
 
-#wpas .wrapper .quotes{
+#reviews .wrapper .quotes{
   text-align: left;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; 
@@ -149,12 +148,12 @@ cite{
   padding-top: 1em;
 }
 
-#btd{
+#dough-bc{
 text-align: center;
 display: block;
 }
 
-#btd .wrapper{
+#dough-bc .wrapper{
 display: grid;
 grid-template-columns: 1fr 1fr;
 text-align: left;
